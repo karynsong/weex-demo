@@ -1,0 +1,344 @@
+/*iconfont*/
+.ff-icon {
+    display: inline-block;
+    vertical-align: 2px;
+    font-family: iconfont;
+    font-size: 24;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+}
+.ff-hos-icon{
+    color: $base-disabled;
+    margin-right: 10;
+}
+.ff-change-layout{
+    color: #919199;
+    font-size: 50;
+}
+.ff-arrow,
+.ff-arrow-down {
+    color: $base-disabled;
+    font-size: 30;
+    margin-left: -30;
+    margin-right: 30;
+}
+.ff-null-icon{
+    color: $warning-icon-color;
+    font-size: 140;
+}
+.ff-arr-list{
+    color: #45c4dd;
+    font-size: 30;
+    margin-right: 5;
+    transform: rotate(90deg);
+}
+.ff-calendar{
+    color: #45c4dd;
+    font-size: 52;
+}
+.ff-arrow-bottom{
+    font-size: 20;
+    color: $base-disabled;
+}
+.ff-arrow-right {
+    position: absolute;
+    top: 40;
+    right: 30;
+    color: $base-disabled;
+    font-size: 30;
+}
+.ff-warning{
+    color: $base-disabled;
+    font-size: 30;
+}
+.ff-photo{
+    color: #6ec6d2;
+    font-size: 44;
+    text-align: right;
+    position: absolute;
+    right: 0;
+}
+.ff-camera{
+    position: absolute;
+    top: 23;
+    right: 30;
+    color: #6ec6d2;
+    font-size: 44;
+}
+.ff-success-icon{
+    color: $base-blue;
+    font-size: 160;
+}
+.ff-null-icon{
+    color: $base-disabled;
+    font-size: 200;
+}
+.ff-voice {
+    width: 34;
+    color: #45c4dd;
+    font-size: 34;
+    margin-top: -5;
+    margin-right: 5;
+    margin-left: 5;
+}
+.ff-avatar {
+    font-size: 132;
+    color: #fff;
+}
+.ff-card {
+    margin-right: 22;
+    font-size: 52;
+    color: #13a0c9;
+}
+.ff-record {
+    margin-right: 22;
+    font-size: 52;
+    color: #13a0c9;
+}
+.ff-paycord {
+    margin-right: 22;
+    font-size: 52;
+    color: #00bb8d;
+}
+.ff-advisory {
+    margin-right: 22;
+    font-size: 52;
+    color: #13a0c9;
+}
+.ff-manage {
+    margin-right: 22;
+    font-size: 52;
+    color: #f39826;
+}
+.ff-fontSize {
+    margin-right: 22;
+    font-size: 52;
+    color: #00bb8d;
+}
+.ff-abUs {
+    margin-right: 22;
+    font-size: 52;
+    color: #13a0c9;
+}
+.ff-nike {
+    margin-right: 20;
+    font-size: 42;
+    color: #45c4dd;
+}
+.ff-phone-number {
+    margin-right: 22;
+    font-size: 42;
+    color: #16d4b8;
+}
+.ff-change-pwd {
+    margin-right: 22;
+    font-size: 42;
+    color: #45c4dd;
+}
+.ff-real-name {
+    margin-right: 18;
+    font-size: 47;
+    color: #16d4b8;
+}
+
+.ff-pay-jyt{
+    color: $base-blue;
+    font-size: 50;
+    margin-right: 10;
+}
+.ff-pay-temp{
+    color: $base-blue;
+    font-size: 50;
+    margin-right: 10;
+}
+.ff-pay-wechat{
+    color: #4cd964;
+    font-size: 44;
+    margin-right: 10;
+}
+.ff-pay-gray{
+    color: $base-disabled;
+}
+.ff-pay-success{
+    color: #4cd964;
+    font-size: 40;
+}
+.ff-phone {
+    color: #e6e6e6;
+    font-size: 255;
+    margin-top: 100;
+    margin-bottom: 50;
+}
+.ff-arr-bottom{
+    color: $base-disabled;
+    font-size: 40;
+    margin-top: 2;
+}
+.ff-circle{
+    color: $base-disabled;
+    font-size: 10;
+    margin-left: 5;
+    margin-right: 15;
+}
+.ff-cardDetail{
+    font-size: 60;
+    color: #2eb6eb;
+    margin-right: 20;
+}
+.ff-datepicker{
+    color: $base-disabled;
+    font-size: $font-26;
+    margin-right: 8;
+}
+
+.ff-del {
+    margin-left: 30;
+    margin-right: 30;
+    color: $base-disabled;
+    font-size: 34;
+}
+.ff-addMore-bottom{
+    color: $base-disabled;
+    font-size: $font-24;
+}
+.ff-guide-ico{
+    color: $base-blue;
+    font-size: $font-40;
+    margin-right: 5;
+}
+.ff-search {
+    position: absolute;
+    top: 31;
+    left: 30;
+    font-size: 30;
+    color: #333 ;
+}
+.ff-checked{
+    color: #56c4ef;
+    font-size: 48;
+}
+.ff-treatment-card{
+    margin-top: 50;
+    font-size: 240;
+    color: #b2b2b2;
+}
+.ff-no-record {
+    margin-top: 50;
+    font-size: 240;
+    color: $warning-icon-color;
+}
+.ff-search-new {
+    margin-top: 14;
+    padding-left: 20;
+    font-size: 30;
+    color: $blue-ink ;
+}
+.ff-wechat {
+    font-size: 40;
+    color: #77B350;
+}
+.ff-add {
+    margin-left: -30;
+    margin-right: 30;
+    font-size: 26;
+    color: $base-disabled;
+}
+.ff-navigate-icon{
+    font-size: 50;
+    color: $base-blue;
+}
+.ff-bells-white {
+    font-size: 52;
+    color: $base-white;
+}
+.ff-bells-gray {
+    font-size: 52;
+    color: $blue-ink;
+}
+.ff-add-ico {
+    width: 50;
+    height: 50;
+    @include abs-pos(40,0,0,25);
+    font-size: 50;
+    color: #dfe1eb;
+}
+.ff-pos,
+.ff-call,
+.ff-time {
+    margin-left: 10;
+    margin-right: 40;
+    font-size: 34;
+    color: $base-blue;
+}
+.ff-del-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 30;
+    color: #ef735a;
+    @include border-all($base-white,solid,4);
+    border-radius: 30;
+    background-color: $base-white;
+    background-size: cover;
+}
+.ff-close{
+    font-size: 24;
+    color: $base-disabled;
+}
+.ff-report,
+.ff-sqtrans,
+.ff-suggestions {
+    font-size: 55;
+    color: #13a0c9;
+}
+.ff-price-query {
+    font-size: 55;
+    color: #13a0c9;
+}
+.ff-vaccinate {
+    font-size: 55;
+    color: #00bb8d;
+}
+.ff-dog {
+    font-size: 55;
+    color: #00b4cb;
+}
+.ff-hos-reservation {
+    font-size: 55;
+    color: #00bb8d;
+}
+.ff-test {
+    font-size: 55;
+    color: #f39826;
+}
+.ff-question{
+    font-size: 46;
+    color: $base-blue;
+}
+.ff-sub-arrow {
+    color: $base-disabled;
+    font-size: 28;
+    margin-left: -30;
+    margin-right: 30;
+}
+.ff-back-no {
+    font-size: 55;
+    color: $base-blue;
+}
+.ff-hint-icon{
+    font-size: 50;
+    color: #eebe2a;
+}
+.normal{
+    color: #5ecbba;
+}
+.level01{
+    color: #eebe2a;
+}
+.level02{
+    color: #ffa14d;
+}
+.level03{
+    color: #ff4f4d;
+}

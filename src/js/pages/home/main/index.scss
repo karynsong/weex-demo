@@ -1,0 +1,76 @@
+@import "../../../common/base";
+
+.gap{
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20;
+  padding-top: 20;
+  padding-right: 20;
+  padding-left: 20;
+  padding-bottom: 0;
+  @include border(bottom);
+}
+.block {
+  padding-right: 18;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 345;
+  height: 160;
+  border-radius: 10;
+  margin-bottom: 20;
+}
+
+.register {
+  padding-left: 30;
+  background-color: $bg-register;
+}
+.outpatient {
+  padding-left: 20;
+  background-color: $bg-outpatient;
+}
+.health-self {
+  padding-left: 30;
+  background-color: $bg-health-self;
+}
+.proficient {
+  padding-left: 20;
+  background-color: $bg-proficient;
+}
+.wrap-reg {
+  margin-top: 10;
+  flex-direction: column;
+}
+.limit-width {
+  width: 160;
+}
+.tit {
+  font-weight: bold;
+  font-size: $font-32;
+  color: $base-color;
+}
+.tit-sec {
+  padding-top: 10;
+  font-size: $font-24;
+  color: $blue-ink;
+}
+.img {
+  width: 90;
+  height: 90;
+}
+.img-03 {
+  width: 91;
+  height: 91;
+}
+.img-04 {
+  padding-left: 10;
+  width: 98;
+  height: 91;
+}
+.disabled-bg{
+    background-color: #ebebeb;
+}
+.disabled{
+    color: #acacbf;
+}

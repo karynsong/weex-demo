@@ -1,0 +1,42 @@
+@import "../../../common/base";
+
+.gap {
+  margin-bottom: 20;
+  padding-bottom: 40;
+}
+.wrap-list {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.list-service {
+  @extend .flex-align;
+}
+.txt-service {
+  margin-top: 15;
+  font-size: $font-28;
+  color: $base-color;
+}
+.img {
+  margin-top: 5;
+  height: 55;
+}
+.img-01 {
+  width: 61;
+  height: 51;
+}
+.img-02 {
+  width: 57;
+  height: 55;
+}
+.img-03 {
+  width: 53;
+  height: 56;
+}
+.img-04 {
+  width: 52;
+  height: 53;
+}
+.disabled{
+  color:#acacbf;
+}

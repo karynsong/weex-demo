@@ -1,0 +1,87 @@
+@import "base";
+@import "mixins";
+@import "variables";
+
+.mask {
+  @include abs-pos();
+  background-color: rgba(0,0,0,.4);
+}
+/*dialog定位*/
+.dialog-wrap{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 540;
+  @extend .flex-align;
+}
+.dialog{
+  width: 750;
+  background-color: $base-white;
+}
+.dialog-header {
+  @include abs-pos();
+  @include border-both(top,bottom);
+  padding-left: 30;
+  padding-right: 30;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 90;
+  background-color: $base-white;
+}
+.select-area {
+  font-size: $font-26;
+  color: $blue-ink;
+  font-weight: bold;
+}
+.done {
+  @include abs-pos(0,0,0,auto);
+  font-size: $font-30;
+  color: $base-blue;
+  padding-top: 30;
+  padding-left: 90;
+  padding-bottom: 30;
+  padding-right: 30;
+}
+.list-area {
+  @include abs-pos(90);
+  background-color: $base-white;
+
+}
+.cell {
+  flex-direction: row;
+  @extend .flex-align;
+  background-color: $base-white;
+  height: 90;
+  @include border-all($border-color);
+  margin-top: -1;
+}
+.area-name {
+  font-size: $font-30;
+  color: $base-color;
+}
+.num {
+  margin-left: 20;
+  font-size: $font-30;
+  color: $blue-ink;
+}
+.mask-linear {
+  @include abs-pos(90);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.linear {
+  height: 100;
+  width: 750;
+  background-color: #fff;
+  opacity: .5;
+}
+.hidden {
+  hidden: true;
+}
+.show {
+  hidden: false;
+  flex: 1;
+  @include abs-pos();
+}

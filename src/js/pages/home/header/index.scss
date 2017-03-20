@@ -1,0 +1,38 @@
+// @Author: songqi
+// @Date:   2017-02-24
+// @Last modified by:   songqi
+// @Last modified time: 2017-03-07
+
+
+
+@import "../../../common/base";
+
+.wrap-pannel {
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 20;
+  padding-left: 20;
+  padding-top: 50;
+  background-color: $base-white;
+  @include border(bottom);
+}
+.wrap-search {
+  margin-right: 80;
+  flex: 1;
+  margin-bottom: 12;
+  flex-direction: row;
+  border-radius: 10;
+  background-color: $bg-input;
+  padding-top: 14;
+  padding-bottom: 13;
+}
+.input-search {
+  flex: 1;
+  margin-left: 20;
+  font-size: $font-28;
+  color: $blue-ink;
+  placeholder-color: $blue-ink;
+}
+.ff-search-new{
+    margin-top: 0;
+}

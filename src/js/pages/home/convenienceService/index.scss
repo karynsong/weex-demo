@@ -1,0 +1,27 @@
+@import "../../../common/base";
+
+.gap{
+  margin-bottom: 20;
+  padding-bottom: 10;
+}
+.wrap-list {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.list-service {
+  @extend .flex-align;
+  width: 150;
+}
+.txt-service {
+  margin-top: 15;
+  margin-bottom: 50;
+  font-size: $font-28;
+  color: $base-color;
+}
+.mb0{
+  margin-bottom: 0;
+}
+.disabled{
+  color: #b0b0b0;
+}

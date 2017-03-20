@@ -1,0 +1,140 @@
+@import 'variables';
+@import 'mixins';
+@import 'iconfont';
+@import 'layout';
+@import 'title';
+
+.mask {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .4);
+}
+.ff-r90 {
+    margin-right: 90;
+}
+.ff-r30 {
+    margin-right: 60;
+}
+
+.wrap{
+    background-color: $bgcolor;
+}
+/*个性化文字大小*/
+.fs28{
+    font-size: 28;
+}
+.fs30{
+    font-size: 30;
+}
+.mr50 {
+    margin-right: 50;
+}
+.mr30 {
+    margin-right: 30;
+}
+.mr20 {
+    margin-right: 20;
+}
+.mt20{
+    margin-top: 20;
+}
+.mb20{
+    margin-bottom: 20;
+}
+.mt30 {
+    margin-top: 30;
+}
+.pd30{
+    padding-top: 30;
+    padding-bottom: 30;
+}
+.text-underline{
+    text-decoration: underline;
+}
+.line-height40{
+    line-height: 40;
+}
+.w190{
+    width: 190;
+}
+.mt10{
+    margin-top: -30;
+}
+.ml30{
+    margin-left: 30;
+}
+.mb30{
+    margin-bottom: 30;
+}
+.pr30{
+    padding-right: 30;
+}
+.mt60 {
+    margin-top: 60;
+}
+.h100{
+    height: 100;
+}
+.main{
+    background-color: $base-white;
+}
+.c-red{
+    color: #fca353;
+    font-weight: bold;
+}
+.c-blue{
+    color: $base-blue;
+    font-weight: bold;
+}
+.c-green{
+    color: $base-green;
+    font-weight: bold;
+}
+.c-gray{
+    color: $blue-ink;
+    font-weight: bold;
+}
+.tc{
+    text-align: center;
+}
+.tl{
+    text-align: left;
+}
+.tr{
+    text-align: right;
+}
+.flex{
+    flex: 1;
+}
+.font-weight{
+    font-weight: bold;
+}
+.export-blue {
+    color: $export-blue;
+    font-size: $font-24;
+}
+.export-red {
+    color: $export-red;
+    font-size: $font-24;
+}
+.export-orange {
+    color: $export-orange;
+    font-size: $font-24;
+}
+.placeholder {
+    color: $gray-color;
+}
+.no-border-top {
+    border-top-width: 0;
+}
+.fixed-bot {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.wrap-border {
+    @include border-both(top,bottom);
+}

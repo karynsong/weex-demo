@@ -1,0 +1,33 @@
+// @Author: songqi
+// @Date:   2017-02-24
+// @Last modified by:   songqi
+// @Last modified time: 2017-03-07
+
+@import "../../common/base";
+
+.info-reminder {
+  position: absolute;
+  width: 75;
+  height: 60;
+  top: 50;
+  right: 0;
+}
+.unread-message {
+  position: absolute;
+  top: 0;
+  right: 18;
+  width: 30;
+  height: 30;
+  border-radius: 15;
+  background-color: $unread-message;
+  flex-direction: row;
+  @extend .flex-align;
+}
+.unread-num,
+.more-unread {
+  color: $base-white;
+  font-size: $font-18;
+}
+.more-unread {
+  margin-left: -2;
+}

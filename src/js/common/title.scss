@@ -1,0 +1,20 @@
+/*类似首页 box中小标题，可分为两部分，右侧加更多*/
+.title-box {
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30;
+}
+.title {
+  font-size: $font-26;
+  color: $blue-ink;
+}
+/*类似 选择号源中 - 上午号源 小标题*/
+.title-gray{
+    font-size: $font-24;
+    padding-left: 30;
+    padding-top: 35;
+    padding-bottom: 15;
+    color: $blue-ink;
+    @include border(bottom);
+    background-color: $bgcolor;
+}
