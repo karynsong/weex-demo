@@ -88,37 +88,37 @@
 }
 .ff-card {
     margin-right: 22;
-    font-size: 52;
+    font-size: 55;
     color: #13a0c9;
 }
 .ff-record {
     margin-right: 22;
-    font-size: 52;
+    font-size: 55;
     color: #13a0c9;
 }
 .ff-paycord {
     margin-right: 22;
-    font-size: 52;
+    font-size: 55;
     color: #00bb8d;
 }
 .ff-advisory {
     margin-right: 22;
-    font-size: 52;
+    font-size: 55;
     color: #13a0c9;
 }
 .ff-manage {
     margin-right: 22;
-    font-size: 52;
+    font-size: 55;
     color: #f39826;
 }
 .ff-fontSize {
     margin-right: 22;
-    font-size: 52;
+    font-size: 55;
     color: #00bb8d;
 }
 .ff-abUs {
     margin-right: 22;
-    font-size: 52;
+    font-size: 55;
     color: #13a0c9;
 }
 .ff-nike {
@@ -153,7 +153,7 @@
     margin-right: 10;
 }
 .ff-pay-wechat{
-    color: #4cd964;
+    color: $btn-green;
     font-size: 44;
     margin-right: 10;
 }
@@ -161,7 +161,7 @@
     color: $base-disabled;
 }
 .ff-pay-success{
-    color: #4cd964;
+    color: $btn-green;
     font-size: 40;
 }
 .ff-phone {
@@ -330,6 +330,14 @@
     font-size: 50;
     color: #eebe2a;
 }
+.ff-55{
+    font-size: 55;
+    color: #fff;
+}
+.ff-55-detail{
+    font-size: 55;
+    color: $base-blue;
+}
 .normal{
     color: #5ecbba;
 }
@@ -341,4 +349,8 @@
 }
 .level03{
     color: #ff4f4d;
+}
+.ff-arrow-blue {
+    color: $base-blue;
+    font-size: 30;
 }

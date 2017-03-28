@@ -2,7 +2,7 @@
 * @Author: songqi
 * @Date:   2017-01-16
 * @Last modified by:   songqi
-* @Last modified time: 2017-03-15
+* @Last modified time: 2017-03-28
 */
 
 import Vuex from 'vuex';

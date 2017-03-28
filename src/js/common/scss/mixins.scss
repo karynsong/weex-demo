@@ -1,46 +1,5 @@
 @charset "utf-8";
 
-.border{
-    border-width: 1;
-    border-style: solid;
-    border-color: $border-color;
-}
-.border-top{
-    border-top-style: solid;
-    border-top-width: 1px;
-    border-top-color: $border-color;
-}
-.border-bottom{
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-bottom-color: $border-color;
-}
-.border-left{
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-left-color: $border-color;
-}
-.border-right{
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-right-color: $border-color;
-}
-.border-topbottom{
-    border-top-style: solid;
-    border-top-width: 1px;
-    border-top-color: $border-color;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-bottom-color: $border-color;
-}
-.border-leftright{
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-left-color: $border-color;
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-right-color: $border-color;
-}
 @mixin border($direction: top,$border-color:$border-color,$solid: solid,$width-value: 1){
     border-#{$direction}-style: $solid;
     border-#{$direction}-width: $width-value;

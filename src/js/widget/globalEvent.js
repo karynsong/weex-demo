@@ -2,21 +2,15 @@
 * @Author: songqi
 * @Date:   2017-02-27
 * @Last modified by:   songqi
-* @Last modified time: 2017-03-07
+* @Last modified time: 2017-03-28
 */
 
 import _isArray from 'lodash/isArray'
-import { distribute } from 'Utils/message';
 
 var globalEvent = weex.requireModule('globalEvent');
 
 const GlobalEvent = {};
 const GLOBALEVENT = {};
-
-// 消息推送
-globalEvent.addEventListener("pushMessage", function(options) {
-    distribute(options, GLOBALEVENT);
-});
 
 // app 被放到后台
 globalEvent.addEventListener("appWillResignActive", function(options) {

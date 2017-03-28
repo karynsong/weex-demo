@@ -2,15 +2,10 @@
 * @Author: songqi
 * @Date:   2017-02-24
 * @Last modified by:   songqi
-* @Last modified time: 2017-03-18
+* @Last modified time: 2017-03-28
 */
 
-import Message from 'Components/message/index.vue';
-
 module.exports = {
-    components: {
-        'message': Message,
-    },
     methods: {
         goToSearch(){
             this.$BM_router.open({

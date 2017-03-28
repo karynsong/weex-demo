@@ -2,14 +2,14 @@
 * @Author: songqi
 * @Date:   2017-01-16
 * @Last modified by:   songqi
-* @Last modified time: 2017-03-13
+* @Last modified time: 2017-03-28
 */
 
 // iconfont 引用
 var dom = weex.requireModule('dom');
 dom.addRule('fontFace', {
     'fontFamily': "iconfont",
-    'src': "url('https://img.benmu-health.com/iconfont/app-benmu-health/1.0.9/iconfont.ttf')"
+    'src': "url('xxx/iconfont.ttf')"
 });
 
 // 引用公共组件

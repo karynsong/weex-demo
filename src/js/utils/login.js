@@ -2,7 +2,7 @@
 * @Author: songqi
 * @Date:   2017-03-03
 * @Last modified by:   songqi
-* @Last modified time: 2017-03-08
+* @Last modified time: 2017-03-28
 */
 
 var modal = weex.requireModule('bmModal'),
@@ -17,7 +17,7 @@ export default function login(message){
         type: 'toLogin',
         msg: message
     }), () => {
-        if(weex.config.bundleUrl.indexOf('/pages/home/index.js') === -1){
+        if(weex.config.bundleUrl.indexOf('xxxx') === -1){
             router.backHome();
         }else{
             modal.alert({

@@ -1,3 +1,10 @@
+// @Author: songqi
+// @Date:   2017-03-21
+// @Last modified by:   songqi
+// @Last modified time: 2017-03-21
+
+
+
 //body的默认背景颜色
 $bgcolor:                           #eff3f4;
 //当前选中文字色
@@ -42,7 +49,7 @@ $blue-ink:                          #8a8a99;
 $base-white:                        #fff;
 $base-blue:                         #00b4cb;
 $base-green:                        #00d5b8;
-$base-orange:                       #f7943a;
+$base-orange:                       #ffa200;
 $base-chanel:                       #acacbf;
 $base-disabled:                     #ceced9;
 $export-blue:                       #04b0ed;
@@ -70,6 +77,8 @@ $warning-icon-color:                #dfe1eb;
 $list-padding:                      30;
 //消息列表链接跳转文字色
 $base-color-pink:                   #f27985;
+//未认证色
+$not-real:                          #ffa200;
 //京医通卡颜色
 $base-bg-jytk:                      #1fb1ea;
 //临时卡颜色
@@ -116,4 +125,3 @@ $normal:                            #5ecbba;
 $level01:                           #eebe2a;
 $level02:                           #ffa14d;
 $level03:                           #ff4f4d;
-

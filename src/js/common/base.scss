@@ -1,8 +1,15 @@
-@import 'variables';
-@import 'mixins';
-@import 'iconfont';
-@import 'layout';
-@import 'title';
+// @Author: songqi
+// @Date:   2017-03-28
+// @Last modified by:   songqi
+// @Last modified time: 2017-03-28
+
+
+
+@import 'scss/variables';
+@import 'scss/mixins';
+@import 'scss/iconfont';
+@import 'scss/layout';
+@import 'scss/title';
 
 .mask {
     position: absolute;
