@@ -1,0 +1,42 @@
+.success{
+    background-color: $base-white;
+    @include border(bottom);
+}
+.success-bd{
+    padding-top: 80;
+    padding-bottom: 20;
+    margin-left: 30;
+    margin-right: 30;
+    @extend .flex-align;
+}
+.success-text{
+    font-size: $font-40;
+}
+.success-text{
+    font-size: $font-40;
+    color: $base-color;
+}
+.success-con{
+    margin-top: 20;
+    margin-right: 30;
+    margin-bottom: 20;
+    margin-left: 30;
+    @include border(top);
+    padding-top: 30;
+}
+.success-msg{
+    flex-direction: row;
+    padding-bottom: 10;
+}
+.success-msg-left{
+    flex: 1;
+    color: $base-color;
+    font-size: $font-30;
+}
+.success-msg-right{
+    color: $base-color;
+    font-size: $font-30;
+}
+.btn{
+    @include btn();
+}

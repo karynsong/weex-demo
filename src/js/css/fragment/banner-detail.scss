@@ -1,0 +1,39 @@
+/*专病专症门诊 banner*/
+
+.specialist-banner-img {
+    width: 750;
+    height: 422;
+}
+
+.specialist-banner-sm {
+    height: 350;
+}
+
+.specialist-banner-title {
+    position: absolute;
+    top: 72;
+    right: 90;
+    font-size: $font-44;
+    color: $base-blue;
+    font-weight: bold;
+}
+
+.specialist-banner-text {
+    font-size: $font-24;
+    color: $base-color;
+    width: 325;
+    position: absolute;
+    top: 133;
+    right: 30;
+    line-height: 35;
+    font-weight: bold;
+}
+.title-bgWhite{
+    background-color: $base-white;
+    color: $blue-ink;
+    font-weight: bold;
+    font-size: $font-26;
+    padding-left: 30;
+    padding-top: 22;
+    padding-bottom: 22;
+}

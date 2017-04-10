@@ -1,0 +1,146 @@
+/*专家列表*/
+.specialist-list{
+    background-color: $base-white;
+    margin-top: 20;
+
+}
+.specialist-list-title{
+    @include border-both(top,bottom);
+    font-size: $font-26;
+    color: $blue-ink;
+    padding-top: 22;
+    padding-bottom: 22;
+    padding-left: 30;
+}
+/*医生列表*/
+.tips-img {
+    width: 84;
+    height: 84;
+    border-radius: 42;
+    @include border-all($border-color,$width-value: 3);
+}
+.tips-img-large{
+    width: 114;
+    height: 114;
+    border-radius: 57;
+}
+.wrap-tit{
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10;
+    flex-wrap: wrap;
+}
+.panel-list-doc {
+    margin-top: -1;
+    padding-top: 30;
+    padding-right: 30;
+    padding-bottom: 30;
+    padding-left: 30;
+    flex-direction: row;
+    background-color: $base-white;
+    @include border-both(top, bottom);
+}
+.level {
+    font-size: $font-24;
+    color: $base-color;
+    font-weight: bold;
+}
+.wrap-banner {
+    flex: 1;
+    margin-left: 20;
+    justify-content: space-between;
+}
+.doc-name-text,
+.doc-name{
+
+    font-size: $font-30;
+    color: $base-color;
+    font-weight: bold;
+    line-height: 40;
+}
+.doc-name-text {
+    flex: 1;
+    @include text-overflow();
+}
+.limit-2 {
+    flex-wrap: wrap;
+    lines: 0;
+    margin-right: 6;
+}
+.department {
+    font-size: $font-26;
+    color: $blue-ink;
+    font-weight: bold;
+    padding-top: 15;
+    padding-bottom: 15;
+}
+.limit-1 {
+    lines: 1;
+    text-overflow: ellipsis;
+}
+.speciality-line-one {
+    lines: 2;
+    text-overflow: ellipsis;
+}
+.speciality-line-unlimit {
+    lines: 0;
+    text-overflow: ellipsis;
+}
+.mt0{
+    margin-top: 0;
+}
+.expert-txt {
+    font-size: $font-26;
+    color: $base-blue;
+    margin-top: 7;
+}
+/*就诊时间*/
+.treatment-time{
+    @include border(bottom);
+    padding-left: 30;
+    padding-top: 30;
+    padding-bottom: 15;
+    flex-direction: row;
+}
+.treatment-time-right{
+    margin-left: 30;
+    margin-right:30;
+    flex: 1;
+}
+.treatment-time-left{
+    color: $blue-ink;
+    font-weight: bold;
+    font-size: $font-26;
+    line-height: 35;
+}
+.treatment-time-text{
+    flex: 1;
+    flex-wrap: wrap;
+    font-size: $font-26;
+    color: $base-color;
+    font-weight: bold;
+    padding-bottom: 15;
+    line-height: 35;
+}
+.reservation{
+    flex-direction: row;
+    align-items: center;
+    @include border(top,$width-value: 3);
+    background-color: $base-white;
+    height: 100;
+    padding-left: 30;
+}
+.reservation-text{
+    flex: 1;
+    color: $blue-ink;
+    font-size: $font-26;
+}
+.btn-reservation{
+    font-weight: bold;
+    color: $base-white;
+    font-size: $font-30;
+    padding-top: 20;
+    padding-bottom: 20;
+    padding-left: 30;
+    padding-right: 30;
+}

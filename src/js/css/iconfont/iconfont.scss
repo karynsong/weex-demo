@@ -23,10 +23,6 @@
     margin-left: -30;
     margin-right: 30;
 }
-.ff-null-icon{
-    color: $warning-icon-color;
-    font-size: 140;
-}
 .ff-arr-list{
     color: #45c4dd;
     font-size: 30;
@@ -71,7 +67,7 @@
     font-size: 160;
 }
 .ff-null-icon{
-    color: $base-disabled;
+    color: $warning-icon-color;
     font-size: 200;
 }
 .ff-voice {
@@ -193,8 +189,10 @@
 }
 
 .ff-del {
-    margin-left: 30;
-    margin-right: 30;
+    padding-top: 15;
+    padding-bottom: 15;
+    padding-left: 30;
+    padding-right: 30;
     color: $base-disabled;
     font-size: 34;
 }
@@ -353,4 +351,8 @@
 .ff-arrow-blue {
     color: $base-blue;
     font-size: 30;
+}
+.ff-question-all {
+    font-size: 36;
+    color: $base-blue;
 }

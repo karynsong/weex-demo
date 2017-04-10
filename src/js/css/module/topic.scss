@@ -1,0 +1,29 @@
+.topic-img{
+    width: 750;
+    height: 633;
+}
+.topic-img-s{
+    height: 481;
+}
+.detail-box{
+    background-color: $base-white;
+    padding-top: 40;
+    padding-right: 30;
+    padding-bottom: 30;
+    padding-left: 30;
+    border-radius: $btn-border-radius;
+    margin-left: 30;
+    margin-right: 30;
+}
+.detail-title{
+    font-size: $font-36;
+    color: $base-color;
+    font-weight: bold;
+    padding-bottom: 20;
+}
+
+.detail-text{
+    font-size: $font-30;
+    color: $blue-ink;
+    line-height: 45;
+}

@@ -1,0 +1,65 @@
+.detail-wrap{
+    background-color: $base-white;
+    margin-top: 10;
+    @include border-all($border-color);
+}
+.list-wrap{
+    @include abs-pos;
+}
+.list-block{
+    flex-direction: row;
+    @extend .flex-align;
+    padding-left: 30;
+    padding-top: 30;
+    padding-bottom: 30;
+
+}
+.list-block-left{
+    flex: 1;
+}
+.list-detail{
+    flex-direction: row;
+    padding-bottom: 15;
+    align-items: center;
+}
+.list-text{
+    color: $base-color;
+    font-size: $font-28;
+}
+.recharge-null{
+    margin-top: 100;
+    @extend .flex-align;
+}
+.recharge-null-text{
+    font-size: $font-30;
+    color: $blue-ink;
+}
+.status-title{
+    @include border(bottom);
+    font-size: $font-30;
+    padding-top: 25;
+    padding-bottom: 16;
+    color: $base-color;
+    margin-right: 30;
+    margin-left: 30;
+    font-weight: bold;
+}
+.resourceList-btn{
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: -30;
+}
+.btn{
+    @include btn();
+    margin-top: 0;
+    margin-bottom: 20;
+}
+.btn-gray{
+    @include btn($btn-gray);
+    margin-right: 0;
+}
+.btn-double{
+    @include btn();
+    flex: 1;
+}

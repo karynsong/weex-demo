@@ -1,0 +1,38 @@
+/*公用文字截断*/
+.message-wrap{
+    flex-direction: row;
+}
+.expert-in {
+    flex-direction: row;
+    flex: 1;
+}
+.expert-details {
+    flex: 1;
+    color: $blue-ink;
+    font-size: $font-26;
+    line-height: 35;
+    align-self: flex-start;
+}
+.resource-bd-arrow{
+    align-self: flex-end;
+}
+.ff-addMore-bottom{
+    font-size: 24;
+}
+.limit-one{
+    lines: 1;
+    text-overflow: ellipsis;
+    flex: 1;
+}
+.limit-two{
+    lines: 2;
+    text-overflow: ellipsis;
+}
+.limit-three{
+    lines: 3;
+    text-overflow: ellipsis;
+}
+.unlimit{
+    lines: 0;
+    text-overflow: ellipsis;
+}
