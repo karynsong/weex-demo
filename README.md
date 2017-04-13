@@ -131,7 +131,7 @@ zip 包的生成依赖的是 bsdiff，这个需要本地装一个 bsdiff
 
 ## 更新设计
 
-![更新方案](media/14900019560475.jpg)￼
+![更新方案](https://lev-inf.benmu-health.com/resource/image/3dd2d0e046ea585f7ef5fd133170b9e8.jpg)
 
 
 ## 包资源上传
